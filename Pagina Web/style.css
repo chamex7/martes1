@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f4f4;
+}
+
+/* 
+BARRA DE MENU
+*/
+
+.menu1{
+    display: grid;
+    grid-template-columns: 20% 20% 40% 10% 10%;
+    grid-template-rows: 70px;
+    text-align: center;
+
+}
+
+.caja{
+    
+    background-color: #e29743;
+    padding: 25px;
+    margin-left: -150px;
+}
+
+
+.buscar{
+    padding: 15px;
+}
+
+.buscar input{
+    width: 500px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    margin-right: 100px;
+}
+
+.btn{
+    margin-top: -45px;
+    margin-left: 360px;
+    height: 55px;
+    line-height: 55px;
+    
+}
+
+
+.login{
+    padding-right: 150px;
+    padding-block-start: 20px;
+    text-align: justify;
+    font-size: 13px;
+    
+}
+
+#carrito{
+    width: 30px;
+}
+
+/*
+MENU 2
+*/
+
+.menu2{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 20% auto;
+    text-align: center;
+    border: 1px solid black;
+    grid-template-rows: 30px;
+
+}
+
+.caja2{
+    margin: 5px;
+    margin-right: 170px;
+}
+.lista{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 5% 5% 5% 5%;
+    margin-left: -80px;
+}
+
+/*
+DESLIZAMIENTO DE IMAGENES
+*/
+
+.desplazamiento{
+    width: 100%;
+}
+
+.item{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.itemimagen1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemflecha{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemflecha i:hover {
+    cursor: pointer;
+}
+
+#itemimagen-1{
+    background-color: rgb(233, 96, 96);
+}
+
+#itemimagen-2{
+    background-color: rgb(85, 184, 106)
+}
+
+#itemimagen-3{
+    background-color: rgb(226, 129, 50);
+}
+
+.itemflecha a i{
+    color: white;
+}
+
+/*
+DESTACADOS
+*/
+
+h1{
+    margin-left: 180px;
+    padding: 20px;
+
+}
+
+#cuadro_1{
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}   
+    
+
+.cuadro{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    height: 90%;
+    
+}
+
+.cuadro2{
+    height: 50px;
+    margin-top: 150px;
+    background-color: #cacaca;
+}
+
+#cuadro_1 a:hover{
+    background-color: #e29743;
+}
+
+#circle_1{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    
+
+}
+
+
+.circle{
+    padding: 50px;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 20px;
+    background-color: white;
+
+}
+
+.text1{
+    margin-top: -20px;
+}
+
+#circle_1 a:hover{
+    background: rgb(221, 150, 108);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*
+FOOTER
+*/
+
+#foot1{
+    background-color: rgb(61, 65, 65);
+    display: flex;
+}
+#final{
+    list-style: none;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    
+  
+}
+#final a{
+    padding: 10px;
+    color: aliceblue;
+}
+
+#final li p{
+    color: rgb(201, 191, 191);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#foot2{
+    background-color: rgb(54, 53, 53);
+
+}
+
+.text2{
+    padding: 10px;
+    color: #f5f4f4;
+}
+
+.text2 p{
+   margin-left: 150px;
+}

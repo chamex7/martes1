@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f4f4;
+}
+
+/* 
+BARRA DE MENU
+*/
+
+.menu1{
+    display: grid;
+    grid-template-columns: 20% 20% 40% 10% 10%;
+    grid-template-rows: 70px;
+    text-align: center;
+
+}
+
+.caja{
+    
+    background-color: #e29743;
+    padding: 25px;
+    margin-left: -150px;
+}
+
+
+.buscar{
+    padding: 15px;
+}
+
+.buscar input{
+    width: 500px;
+    height: 35px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    margin-right: 100px;
+}
+
+.btn{
+    margin-top: -45px;
+    margin-left: 360px;
+    height: 55px;
+    line-height: 55px;
+    
+}
+
+
+.login{
+    padding-right: 150px;
+    padding-block-start: 20px;
+    text-align: justify;
+    font-size: 13px;
+    
+}
+
+#carrito{
+    width: 30px;
+}
+
+/*
+MENU 2
+*/
+
+.menu2{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 20% auto;
+    text-align: center;
+    border: 1px solid black;
+    grid-template-rows: 30px;
+
+}
+
+.caja2{
+    margin: 5px;
+    margin-right: 170px;
+}
+.lista{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 5% 5% 5% 5%;
+    margin-left: -80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* 
+SECTION
+*/
+
+#productos{
+    height: 600px;
+    margin: 20px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 70% auto;
+    
+}
+
+.cuadro{
+    
+    margin: 20px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.compra{
+    text-align: center;
+    border: 1px solid black;
+   
+}
+
+#boton2{
+    width: 200px;
+    height: 30px;
+    margin-top: 430px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#boton2:hover{
+   cursor: pointer;
+   background-color: #e29743;
+}
+
+.cuadro2{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    height: 200px;
+}
+
+#check{
+    margin-top: 6%;
+}
+
+.cuadro3{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    margin-top: -55px;
+    
+}
+
+#tacho{
+    text-align: right;
+    margin-top: -15px;
+}
+
+
+#añadir{
+    margin: auto;
+    padding: 10px;
+    
+    border-radius: 10px;
+    height: 300px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.recuadro{
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+
+}
+
+#tex1{
+    margin-left: 70px;
+    padding: 10px;
+}
+
+#añadir a:hover{
+    background-color: #e29743;
+}
+
+#final{
+    background-color: rgb(54, 53, 53);
+    list-style: none;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#express{
+    color: #f5f4f4;
+    font-size: 12px;
+}
